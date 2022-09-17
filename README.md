@@ -1,5 +1,16 @@
 # 🌳 Go Bonzai™ Composite Command Tree
 
+## TODO for me
+Must be compatible with MacOS (M1) and Linux. Windows? Meh.
+
+- datetime with multiple formats
+- epoch to datetime (+ vice versa)
+- yaml to json (+ vice versa)
+- multiple yaml to json (+ vice versa)
+- create uuid
+- random hex string
+
+
 *Create a new GitHub project using this template and change this
 README.md to match your project. Make all your template changes before
 making your first commit.*
