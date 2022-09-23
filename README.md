@@ -10,12 +10,7 @@ Must be compatible with MacOS (M1) and Linux. Windows? Meh.
 - create uuid
 - random hex string
 
-
-*Create a new GitHub project using this template and change this
-README.md to match your project. Make all your template changes before
-making your first commit.*
-
-[![GoDoc](https://godoc.org/github.com/rwxrob/bonzai-example?status.svg)](https://godoc.org/github.com/rwxrob/bonzai-example)
+[![GoDoc](https://godoc.org/github.com/coopernetes/bz?status.svg)](https://godoc.org/github.com/coopernetes/bz)
 [![License](https://img.shields.io/badge/license-Apache2-brightgreen.svg)](LICENSE)
 
 ## Install
@@ -26,7 +21,7 @@ Bonzai command tree.
 Standalone
 
 ```
-go install github.com/rwxrob/bonzai-example/cmd/bonzai-example@latest
+go install github.com/coopernetes/bz/cmd/bz@latest
 ```
 
 Composed
@@ -35,8 +30,8 @@ Composed
 package z
 
 import (
-	Z "github.com/rwxrob/bonzai/z"
-	example "github.com/rwxrob/bonzai-example"
+	Z "github.com/coopernetes/bonzai/z"
+	example "github.com/coopernetes/bz"
 )
 
 var Cmd = &Z.Cmd{
@@ -52,7 +47,7 @@ To activate bash completion just use the `complete -C` option from your
 completion is done by the program itself.
 
 ```
-complete -C bonzai-example bonzai-example
+complete -C bz bz
 ```
 
 If you don't have bash or tab completion check use the shortcut
@@ -64,15 +59,3 @@ All documentation (like manual pages) has been embedded into the source
 code of the application. See the source or run the program with help to
 access it.
 
-## Reminders
-
-* Change `bonzai-example` every place to your project name (`git grep
-  bonzai-example`)
-* Remove anything you don't need
-* Change `.github/FUNDING.yaml` to your own information
-* Update `.gitignore` to your liking
-* Will need to `go get -u` to update dependencies
-
-## Other Examples
-
-* <https://github.com/rwxrob/z> - the one that started it all
