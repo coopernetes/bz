@@ -3,7 +3,7 @@
 
 package main
 
-import example "github.com/rwxrob/bonzai-example"
+import example "github.com/coopernetes/bz"
 
 // tree grown from branch
 func main() { example.Cmd.Run() }

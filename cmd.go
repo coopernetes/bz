@@ -245,7 +245,7 @@ var pkgexampleCmd = &Z.Cmd{
 	Params: []string{"bar", "baz"},
 
 	Call: func(_ *Z.Cmd, args ...string) error {
-		Foo(args[1]) // calls high-level pkg library function
+		Foo(args[0]) // calls high-level pkg library function
 		return nil
 	},
 }
